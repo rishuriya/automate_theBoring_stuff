@@ -1,0 +1,8 @@
+# date detection
+As I take Date in format DD/MM/YYYY then split it from '/' and convert it in list then i get date , month and year seperatly in variables then using nested if else if date is less than 32 and month not equal to 2,4,6,9,11 and  inside it if month is equal 1,3,5,7,8,10,12 then it print valid else invalid. again using nested if else if date is less than 31 and month is equal to 4,6,9,11 then it print valid again in if else if month ==2 then inside this one more if it check if year%4==0 and date is less than 30 then it will print valid. ifelse if year%4!=0 then date should less than 29.
+
+# String  method function
+first we take input as string then put this input in function in which a loop will run to the length of string. inside loop there is if else function which check each indices of string and if for any index string !=" " then it will print string else it will not print.
+
+# Strong Password Detection
+As we take input in string then put this value in function. Three variable is declare with name upper, lower and num.A loop will run till the length of string and check for each index of string. if that value is uppercase then upper varable is increase by 1, if it is lower then lower will increase by 1 and if its numerical then num will increase. After loop end there is if else.. if length of string more or equal to 8 and upper, lower, num is more than zero then function will return strong else weak

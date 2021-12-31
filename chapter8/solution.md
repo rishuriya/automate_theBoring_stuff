@@ -1,0 +1,5 @@
+# multiplication Quiz
+First i downloaded and install the pyinputplus modules through command <pip download pyinputplus> then take random variable question and correct, question is the total no of question to be ask.. now loop will run to total number of questionin loop we decale two variable which has random number using randint() from 0 to 9 then a varible store the product of two number. Then one variable store attempt and then a loop will run untill attempt become zero. then using try we will take the input with some condition. if its late to more than 8 sec then it show timeoutException and show next Question, if input match to correct answer then correct variable increases by 1 and show next Question and if its wrong then 1 attempt reduce and give another chance to give answer. at end of loop it will show result of total corrected answer.
+
+# Sandwich maker
+Taking the order using inputmenu() after getting that using ifelse puting it cost in variable.

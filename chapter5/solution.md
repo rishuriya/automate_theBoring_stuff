@@ -1,0 +1,8 @@
+# Chess Dictionary validator
+I first take the key of dictionary in list then same with the values and then make variable for each piece of chess now start a loop which will run length of dictionary times now in key we will break the string and at index 0 we will check if it is not more than 8 if it is then fuction will return false then we check for index 1 and check if it is not more than h if so then it will return false, then the list of value is used and we break the string into indices and for index 0 we will check if it is not equal to w or b then it will return false. Now we check value list with the pieces and if its match then the variable of its name increases by 1 if any piece exceed the maximum number then it will return false and if any piece not match then it will return false else it will give true.
+
+# Fantasy Game Inventory
+As we take dictionary as input i use for loop which will run till all the key and value are not shown then i print key and its value, inside loop a variable is taking sum of all values and after loop ens its print the total item.
+
+# List to Dictionary Function for Fantasy Game Inventory
+I made list of key and then matching each index of dragon loot with key with its match then a arbitary variable increases.. Now if arbitary variable is zero then that item of dragonloot included in dict with value 1 else if arbitary variable not equal to zero then arbitary variable is added to value of that matched key and hence we got updated inventory and now we will print with help of previous function.

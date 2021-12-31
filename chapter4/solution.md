@@ -1,0 +1,5 @@
+# Character picture grid 
+the given input is in nested list so first we print index 0 for every list in main then print index 1 amd so on. For this we have to use nested loop, Main loop will run till length of inner list and and inner loop run till lenth of main list.. and print the given str at that indices.
+
+# Coin Flip Streak
+First we have to import the Random Library then we take some variable and nested loop main loop will run 10000 time while inner loop will run 100 time in inner loop first we put the value of coin which we get before .. (in first time we give value 2 beacause if we give 0 it will cause trouble in experiment) then using randint() function we find its head or tail, suppose if randint give 1 then its head otherwise 0 is tail now we mathch the value of from previous one if its match then a variable(which i named coin) will increase else that varible become zero if the variable inside if become 6 then another varible (which i named streak) increases with one and "coin" become zero. After all loop end "streak" divided by 100 gives us probability.

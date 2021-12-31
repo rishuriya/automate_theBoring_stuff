@@ -1,0 +1,2 @@
+# Chapter 3
+First I input number using input() in variable i and type caste it in integer through int() then in while loop which will run untill the Variable i equal to 0. In the loop we will define function colltaze and and in last line of loop we will call function. in function we use if else condition for odd and even. if its odd then i will increase and print, if its even then it will decrease and print.
